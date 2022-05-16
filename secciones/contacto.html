@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 
-    <link rel="stylesheet" href="../estilos/estilos.css">    
+    <link rel="stylesheet" href="../estilos/estilos.css">  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
 
 
 </head>
@@ -68,12 +70,13 @@
 
         <section class="contactanos main">
 
-            <div class="marcador">
+            
+          <!-- <div class="marcador">
 
                 <form action="#">
 
-                    Nombre
-                    <input type="text" placeholder="Nombre"><br>
+                    Nombre <br>
+                    <input type="text" placeholder="Nombre"> <br>
                     
                     <label for="email">Ingresá tu email: <br>
                         <input type="email" placeholder="xxxxx@gmail.com"  name="email"><br>
@@ -119,9 +122,75 @@
                     <input type="submit" value="PASAME LA DATA">
                     <input type="reset" value="RESETEAR">
 
-
                 </form>
 
+            </div> -->
+
+            <div class="marcador" data-aos="fade-down">
+		
+                <form action=# method="post">
+        
+                        
+                        <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="required">
+                        
+                
+                        <label>Apellido</label>
+                            <input type="text" name="Apellido" placeholder="Apellido" required="required">
+                
+                    
+                
+                        <label>E-mail</label>
+                            <input type="email" name="mail" placeholder="ejemplo@gmail.com" required="required" >
+                        
+                
+                        <label>Mensaje</label>
+                            <input type="text" name="mensaje" placeholder="Dejame acá tu consulta" required="required">
+                        
+                            <div>Motivo de contacto
+                                <div>
+                                    Presupuesto
+                                    <input type="radio" name="lado" value="presu">
+                                </div>
+
+                                <div>Trabajos
+                                    <input type="radio" name="lado" value="trabajos">
+                                </div>
+
+
+                                <div>Otros
+                                    <input type="radio" name="lado" value="otros">
+                                </div>
+                            </div>
+
+                
+                            Cuál de mis trabajos te gustó mas?
+                            <select name="letra" id="letra"> 
+                                <option value="x">Animación</option>
+                                <option value="y">Editorial</option>
+                                <option value="z">Branding</option>
+                            </select>
+
+
+                            <div>Queres recibir info sobre nosotros?
+                            <input type="checkbox" name="acepta" value="1"></div>
+                            <input type="submit" value="PASAME LA DATA" class="boton">
+                            <input type="reset" value="RESETEAR" class="boton">
+                
+                
+                
+                        <label>
+                            <input type="checkbox" name="condiciones" value="acepto" required="required">
+                             Acepto las condiciones</label>
+                
+                
+                
+                        
+                        <input type="submit" value="Enviar info" class="boton">
+        
+                </form>
+        
+        
             </div>
 
         </section>
@@ -184,7 +253,9 @@
 
     </div>
 
-
+    <script>
+        AOS.init();
+      </script>
 
 
 </body>

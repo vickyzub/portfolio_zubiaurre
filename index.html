@@ -7,6 +7,8 @@
     <title>Portfolio VZ</title>
 
 <link rel="stylesheet" href="./estilos/estilos.css">    
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,7 +81,7 @@
 
         
 
-        <section class="maino">
+        <section class="maino" data-aos="fade-down">
 
             <article class="descri">
 
@@ -134,23 +136,23 @@
         </section>
 
 
-        <section class="perro">
+        <section class="perro"data-aos="fade-down">
 
             <div class="perro gal">
                 <div>
-                        <img src="./img/gal_1.jpg" alt="diario editorial">
+                        <img src="./img/gal_1.jpg" alt="diario editorial" class="zoom">
                 </div>
 
                 <div>
-                    <img src="./img/gal_2.jpg" alt="portada fanzine">
+                    <img src="./img/gal_2.jpg" alt="portada fanzine" class="zoom">
                 </div>
 
                 <div>
-                    <img src="./img/gal_3.jpg" alt="revista de diseño">
+                    <img src="./img/gal_3.jpg" alt="revista de diseño" class="zoom">
                 </div>
 
                 <div>
-                    <img src="./img/gal_5.jpg" alt="editorial">
+                    <img src="./img/gal_5.jpg" alt="editorial" class="zoom">
                 </div>
 
             </div>
@@ -202,7 +204,9 @@
 
     </div>
 
-
+    <script>
+        AOS.init();
+      </script>
 
 
 </body>
