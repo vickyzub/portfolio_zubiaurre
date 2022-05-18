@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F4F5F4;
+}
+
+
+/*estilos tipográficos*/
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #212529;
+}
+
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 900;
+    color: white;
+   
+}
+
+
+h3 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+    font-size: medium;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #212529;
+
+}
+
+
+.foot {
+    color: #F4F5F4;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+ 
+
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    
+   
+}
+
+.parra {
+    margin: 0 2rem 0 2rem;
+}
+
+/*formulario de contacto*/
+
+form {
+    background: linear-gradient(171deg, rgba(250,250,250,0.8354692218684349) 0%, rgba(228,226,226,0.4629202022605917) 50%, rgba(221,216,209,0.527345972568715) 100%);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 5.0px );
+	-webkit-backdrop-filter: blur( 5.0px );
+	border-radius: 10px;
+	border: 0px solid rgba( 255, 255, 255, 0.18 );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	border-radius: 20px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	border-radius: 20px;
+	padding: 3rem;
+	margin: 3rem auto;
+	font-family: Poppins;
+    font-size: medium;
+	font-weight: 500;
+
+}
+
+.contacto {
+    background-image: url(../img/back.jpg);
+}
+
+.marcador {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    padding: 1rem;
+    
+
+}
+
+.boton {
+    background-color: #c9b1bd;
+    color: white;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10pt;
+    border-radius: 20px;
+    
+}
+
+
+/*COLS*/
+
+.col-1 { width: 8.33%; 
+}
+
+.col-2 { width: 16.66%; 
+}
+
+.col-3 {width: 25%; 
+}
+
+.col-4 {width: 33.33%; 
+}
+
+.col-5 {width: 41.66%;
+background-color: #212529;
+align-content: center;
+
+}
+
+.col-6 {width: 50%
+}
+
+.col-7 {width: 58.33%;
+align-content: center;
+}
+
+.col-8 {width: 66.66%; 
+}
+
+.col-9 {width: 75%; 
+}
+
+.col-10 {width: 83.33%; 
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+
+
+
+/*Imagen*/
+
+.img-fluid {
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+}
+
+.carousel {
+    margin: 2rem 2rem 0 2rem;
+}
+
+/* animaciones*/
+
+
+        .zoom:hover {
+            transition-property: all ease-in;
+            transition-duration: 1s;
+            transform: scale(2);
+
+        }
+
+        .zoomito:hover {
+            transition-property: all ease-in;
+            transition-duration: 1s;
+            transform: scale(120%);
+
+        }
+
+
+/*NAV*/
+
+@media (min-width: 768px){
+
+    .navsmall {
+        display: none;
+
+    }
+}
+
+@media (min-width: 1px) and (max-width: 767px){
+
+    .navbig {
+        display: none;
+    }
+
+}
+
+.navsmall {
+    background-color: #343a40;
+    color: white;
+}
+
+
+/* Index table*/
+
+.descri {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+table, td {
+    border: 3px solid;
+    border-color: #e8c9db;
+    padding: 1rem;
+    color: #212529;
+    font-family: "Poppins";
+    font-weight: 200;
+    width: 60%;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #212529;
+    bottom: 0;
+    margin-top: 10rem;
+    padding: 1rem;
+}
+
+.footercito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
