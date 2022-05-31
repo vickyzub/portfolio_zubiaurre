@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+  background-color: #F4F5F4;
+}
+
+/*estilos tipográficos*/
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: black;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #212529;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-weight: 900;
+  color: white;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+  font-size: medium;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #212529;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+/*# sourceMappingURL=generales.css.map */

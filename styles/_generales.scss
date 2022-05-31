@@ -1,0 +1,115 @@
+body {
+    background-color: #F4F5F4;
+}
+
+$titulo: #dfcbda;
+
+
+/*estilos tipográficos*/
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #212529;
+}
+
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 900;
+    color: $titulo;
+   
+}
+
+
+h3 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+    font-size: medium;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #212529;
+
+}
+
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        
+       
+    }
+}
+
+
+/*NAV*/
+
+@media (min-width: 768px){
+
+    .navsmall {
+        display: none;
+
+    }
+}
+
+@media (min-width: 1px) and (max-width: 767px){
+
+    .navbig {
+        display: none;
+    }
+
+}
+
+.navsmall {
+    background-color: #343a40;
+    color: white;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #212529;
+    bottom: 0;
+    margin-top: 10rem;
+    padding: 1rem;
+
+    .footercito {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot {
+        color: #F4F5F4;
+    }
+}
+
+
+
+
+ 
