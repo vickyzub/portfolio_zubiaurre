@@ -1,0 +1,9 @@
+Cambios realizados para el desafio de SEO
+
+- agregué meta descriptions y keywords en todos los htmls
+
+- arreglé falta de ortografía en branding.html
+
+- revisé todos los textos y títulos para que sean significativos y descriptivos
+
+- 

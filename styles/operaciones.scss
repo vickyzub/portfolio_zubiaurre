@@ -1,0 +1,90 @@
+$ancho:1200px;
+$blue:blue;
+$pinky: rgb(225, 192, 232);
+
+.box {
+    width: $ancho/2;
+    background-color: $pinky;
+
+}
+
+.box2 {
+    width: ($ancho/2)-50;
+    background-color: $pinky;
+}
+
+
+/*condicionales*/
+
+$animal:perro;
+
+p{
+    @if $animal == gato {
+        color: red;
+    } 
+    
+    @else if $animal == perro {
+        color: $pinky;
+    } 
+
+    @else {
+        color: black;
+    }
+}
+
+// $mostrar:true;
+
+// .contenido {
+//     @if $mostrar {
+//         border: 1px dashed grey;
+//     }
+// }
+
+
+/* mapas*/
+$redes:(
+    
+    wunder:#a2a4a5,
+    produ:#7b7c7c,
+    poster: #93d3b6,
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+    
+};
+
+/*extend*/
+
+.redSocial{
+    border: 6px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn--wunder{
+    @extend.redSocial;
+}
+
+.btn--produ{
+    @extend.redSocial;
+}
+
+.btn--poster {
+    @extend.redSocial;
+}
+
+
+/*mixin*/
+
+@mixin sizes ($width, $height) {
+    height:$height;
+    width:$width;
+}
+
+.myMixin{
+    @include sizes(500px, 50px);
+    background-color: lightcoral;
+}

@@ -149,6 +149,48 @@ ul li a {
   padding: 1rem;
 }
 
+.box {
+  width: 600px;
+  background-color: #e1c0e8;
+}
+
+.box2 {
+  width: 550px;
+  background-color: #e1c0e8;
+}
+
+/*condicionales*/
+p {
+  color: #e1c0e8;
+}
+
+/* mapas*/
+.btn--wunder {
+  background-color: #a2a4a5;
+}
+
+.btn--produ {
+  background-color: #7b7c7c;
+}
+
+.btn--poster {
+  background-color: #93d3b6;
+}
+
+/*extend*/
+.redSocial, .btn--wunder, .btn--produ, .btn--poster {
+  border: 6px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/*mixin*/
+.myMixin {
+  height: 50px;
+  width: 500px;
+  background-color: lightcoral;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -339,8 +381,8 @@ ul {
   transition-property: all ease-in;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .zoomito:hover {
