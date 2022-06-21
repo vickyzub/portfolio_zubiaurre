@@ -11,182 +11,6 @@ body {
 
 
 
-
-/* NAV
-
-
-nav {
-    background-color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    display: gird;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-   
-}
-
-
-
-
-ul {
-    display: flex;
-    justify-items: end;
-    list-style-type: none;
-}
- 
-
-
-ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 30px;
-    
-   
-}
-
-
-
- /*hasta acá NAV
-
-
-h1 {
-    font-family: "Poppins";
-    font-weight: 700;
-    color: white;
-    padding: 1rem;
-    margin: 2rem;
-    background-color: #212529;
-}
-
-
-h2 {
-    font-family: "Poppins";
-    font-weight: 900;
-    color: white;
-   
-}
-
-
-h3 {
-    font-family: "Poppins";
-    font-weight: 600;
-    color: white;
-    padding: 1rem;
-    margin: 2rem;
-    background-color: #212529;
-
-}
-
-
-
-p {
-    font-family: "Poppins";
-    font-weight: 200;
-    color: #212529;
-    margin: 2rem;
-}
- 
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-
-table, td {
-    border: 3px solid;
-    border-color: #e8c9db;
-    padding: 1rem;
-    color: #212529;
-    font-family: "Poppins";
-    font-weight: 200;
-}
-
-
-
- /*pagina de contacto
-
-
-.contactanos {
-   
-    padding: 3rem;
-    display: flex;
-    align-content: center;
-    color: black;
-    justify-content: center;
-
-}
-
-.contacto {
-    background-image: url(../img/background.jpg);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: "Poppins";
-    font-weight: 600;
-    background-color: white;
-    opacity: 70%;
-    border-radius: 20px;
-    padding: 2rem;
-}
-
-input {
-    margin-top: 10px;
-}
-
-select{
-    margin-top: 10px;
-}
-
-
- index
-
-.banner {
-    width: 100%;
-}
-
-.indexio {
-    margin-right: 10rem;
-    margin-left: 10rem;
-}
-
-
-
-
-
- FOOTER
-
-footer {
-    background-color: #212529;
-    position: bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-top: 3rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.foot {
-    color: #F4F5F4;
-}
-
-*/
-
-
-
 /*estilos tipográficos*/
 
 p {
@@ -830,14 +654,14 @@ select{
 
 .zoom:hover {
     transition-property: all ease-in;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transform: scale(2);
 
 }
 
 .zoomito:hover {
     transition-property: all ease-in;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transform: scale(120%);
 
 }

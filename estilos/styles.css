@@ -29,7 +29,7 @@ h1 {
 h2 {
   font-family: "Poppins";
   font-weight: 900;
-  color: #dfcbda;
+  color: white;
 }
 
 h3 {
@@ -149,48 +149,7 @@ ul li a {
   padding: 1rem;
 }
 
-.box {
-  width: 600px;
-  background-color: #e1c0e8;
-}
-
-.box2 {
-  width: 550px;
-  background-color: #e1c0e8;
-}
-
-/*condicionales*/
-p {
-  color: #e1c0e8;
-}
-
-/* mapas*/
-.btn--wunder {
-  background-color: #a2a4a5;
-}
-
-.btn--produ {
-  background-color: #7b7c7c;
-}
-
-.btn--poster {
-  background-color: #93d3b6;
-}
-
-/*extend*/
-.redSocial, .btn--wunder, .btn--produ, .btn--poster {
-  border: 6px solid black;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-/*mixin*/
-.myMixin {
-  height: 50px;
-  width: 500px;
-  background-color: lightcoral;
-}
-
+/*@import "operaciones";*/
 * {
   padding: 0;
   margin: 0;
